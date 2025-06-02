@@ -41,7 +41,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
-    margin: 1em;
+    margin: 1em 0;
 }
 
 .botao_secundario {
@@ -94,4 +94,26 @@ body {
 .secundario__botao {
     display: inline-block;
     margin-top: 1em;
+}
+
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
 }
